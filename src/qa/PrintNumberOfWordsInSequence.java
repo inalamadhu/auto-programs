@@ -11,6 +11,7 @@ public class PrintNumberOfWordsInSequence {
             map.put(s, (map.containsKey(s)?map.get(s)+1:1));
         }
         System.out.println(map);
+
     }
 
 }
